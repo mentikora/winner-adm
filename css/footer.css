@@ -1,0 +1,22 @@
+#footer{
+  padding: 45px 0;
+  border-top: 1px solid #dfdfdf;
+
+  background: #fff;
+  font-family: 'fa_light', sans-serif;
+  font-size: 14px;
+  color: #425968;
+}
+  #footer a{
+    font-size: 14px;
+    color: #14629b;
+    text-decoration: none;
+    font-family: 'fa_medium2', sans-serif;
+
+    -webkit-transition: color .25s ease-in-out;
+    -o-transition: color .25s ease-in-out;
+    transition: color .25s ease-in-out;
+  }
+    #footer a:hover{
+      color: #90d0ff;
+    }
