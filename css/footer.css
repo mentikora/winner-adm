@@ -20,3 +20,24 @@
     #footer a:hover{
       color: #90d0ff;
     }
+
+  #footer .rights{
+    float: left;
+  }
+  #footer .welldo{
+    float: right;
+  }
+
+  @media(max-width: 991px){
+    #footer{ 
+      padding: 25px 15px;
+      text-align: center; 
+    }
+
+    #footer .rights,
+    #footer .welldo{
+      float: none;
+    }
+
+    #footer .welldo{ margin-top: 15px; }
+  }
