@@ -1,0 +1,54 @@
+#wrapper.autorization{
+	background: url('../img/banner.jpg') no-repeat 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+	#wrapper.autorization form{
+		padding: 30px;
+		margin-top: 30px;
+
+		background: rgba(255,255,255, .3);
+	}
+
+	#wrapper.autorization input[type="text"]{
+		width: 100%;
+		height: 42px;
+		line-height: 42px;
+		outline: 0;
+		border: 0;
+		padding-left: 15px;
+		margin-bottom: 30px;
+
+		background: #fff;
+		font-size: 12px;
+		color: #898989;
+	}
+	#wrapper.autorization input[type="submit"]{
+		width: 135px;
+		height: 42px;
+		line-height: 42px;
+		margin: 0 auto;
+		border: 0;
+		outline: 0;
+		cursor: pointer;
+
+		background: #14629b;
+		color: #feffff;
+		font-size: 12px;
+		font-family: 'fa_bold', sans-serif;
+		text-align: center;
+		text-transform: uppercase;
+
+		-webkit-transition: background .25s ease-in-out;
+		-o-transition: background .25s ease-in-out;
+		transition: background .25s ease-in-out;
+	}
+	#wrapper.autorization input[type="submit"]:hover{
+		background-color: #90d0ff;
+		color: #fff;
+	}

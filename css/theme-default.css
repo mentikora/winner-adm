@@ -40,19 +40,23 @@ body{
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
+
+  padding-bottom: 50px;
 }
 #footer{
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-
-  margin-top: 50px;
 }
+
 .img-responsive{
   display: inline-block;
   max-width: 100%;
   height: auto;
+}
+.center{
+  text-align: center;
 }
 
 /* banner */

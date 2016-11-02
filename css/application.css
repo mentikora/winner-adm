@@ -3,6 +3,7 @@
 @import "grid.css";
 @import "theme-default.css";
 
+@import "autorization.css";
 @import "header.css";
 @import "footer.css";
 @import "tabs.css";
