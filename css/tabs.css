@@ -48,3 +48,17 @@
 			.tab:hover:after{
 				width: 100%;
 			}
+
+@media(max-width: 991px){
+	#tabs{
+		border-top: 1px solid #dfdfdf;
+	}
+	.tab{
+		height: 70px;
+		line-height: 70px;
+	}
+		.tab.active{
+			color: #fff;
+			background: #14629b;
+		}
+}

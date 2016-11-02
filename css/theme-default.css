@@ -66,3 +66,9 @@ body{
   height: 390px;
   overflow: hidden;
 }
+
+@media(max-width: 991px){
+  .core_banner{
+    display: none;
+  }
+}
