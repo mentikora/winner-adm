@@ -73,7 +73,21 @@ body{
 }
 
 /* titles */
-.page_title{}
+.page_title{
+  font-size: 30px;
+  color: #425968;
+  font-family: 'fa_bold', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 25px;
+}
+  .page_title span{
+    display: inline-block;
+    margin-left: 25px;
+
+    color: #14629b;
+  }
 .block_title{
   font-size: 18px;
   text-transform: uppercase;

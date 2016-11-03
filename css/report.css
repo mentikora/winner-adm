@@ -1,0 +1,54 @@
+.report_stat{}
+	.report_stat .graph{
+		width: 250px;
+		height: 250px;
+		margin: 70px auto 30px;
+		border-radius: 50%;
+
+		background: #003e6b;
+	}
+	.graph_type{
+
+	}
+.graph_type_row{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+	.graph_type_row .color,
+	.graph_type_row .name{
+		float: left;
+	}
+	.graph_type_row .name,
+	.graph_type_row .stat{
+		font-size: 14px;
+		color: #898989;
+		font-family: 'fa_light', sans-serif;
+	}
+	.graph_type_row .color{
+		margin-right: 20px;
+		width: 15px;
+		height: 15px;
+		border: 1px solid #000;
+	}
+	.graph_type_row .name{
+		
+	}
+	.graph_type_row .stat{
+		float: right;
+		text-transform: uppercase;
+	}
+
+.report_filter_title{}
+	.report_filter_title .btn{
+		padding: 0 25px;
+	}
+
+@media(max-width: 991px){
+	.report_stat .graph{
+		margin-top: 30px;
+	}
+	.report_stat > div{
+		margin-bottom: 25px;
+	}
+}
