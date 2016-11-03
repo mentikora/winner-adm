@@ -1,6 +1,7 @@
 .form_style{
 	margin-top: 30px;
 }
+	.form_style img{ max-height: 225px; }
 
 	.form_input,
 	.form_select,
@@ -36,4 +37,12 @@
 	overflow: hidden;
 	position: absolute;
 	z-index: -1;
+}
+
+.form_divider{
+	float: left;
+	width: 100%;
+	height: 1px;
+	background: #dfdfdf;
+	margin: 40px 0 70px;
 }
