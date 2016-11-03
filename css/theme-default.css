@@ -27,6 +27,7 @@ body{
 
   font-size: 14px;
   font-family: 'fa_reg', helvetica, arial, sans-serif;
+  overflow-x: hidden;
 }
 
 #header{ 
@@ -41,7 +42,7 @@ body{
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
 
-  padding-bottom: 50px;
+  padding-bottom: 125px;
 }
 #footer{
   -webkit-box-flex: 0;

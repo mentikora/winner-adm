@@ -1,4 +1,6 @@
 .total_budget_text{
+	margin-top: 46px;
+
 	font-size: 14px;
 	color: #425968;
 	font-family: 'fa_reg', sans-serif;
@@ -11,3 +13,22 @@
 		display: inline-block;
 		margin-left: 20px;
 	}
+
+.total_budget_btn .btn{
+	padding: 0 45px;
+	float: right;
+}
+
+@media(max-width: 991px){
+	.total_budget_text{
+		margin-top: 0px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	.total_budget_btn{
+		text-align: center;
+	}
+		.total_budget_btn .btn{
+			float: none;
+		}
+}

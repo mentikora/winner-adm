@@ -28,27 +28,11 @@
 		font-size: 12px;
 		color: #898989;
 	}
-	#wrapper.autorization input[type="submit"]{
+	#wrapper.autorization .btn{
 		width: 135px;
 		height: 42px;
 		line-height: 42px;
 		margin: 0 auto;
-		border: 0;
-		outline: 0;
-		cursor: pointer;
 
-		background: #14629b;
-		color: #feffff;
 		font-size: 12px;
-		font-family: 'fa_bold', sans-serif;
-		text-align: center;
-		text-transform: uppercase;
-
-		-webkit-transition: background .25s ease-in-out;
-		-o-transition: background .25s ease-in-out;
-		transition: background .25s ease-in-out;
-	}
-	#wrapper.autorization input[type="submit"]:hover{
-		background-color: #90d0ff;
-		color: #fff;
 	}
