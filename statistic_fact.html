@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Winner</title>
+  <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+  <link rel="stylesheet" href="css/application.css">
+</head>
+<body>
+  
+  <!-- header -->
+  <header id="header">
+    <div class="container">
+      <div class="row">
+          
+        <!-- header left side: logo + select -->
+        <div class="col-md-6 header_left">
+          <div class="row">
+            <div class="col-md-7">
+            <a href="javascript:void(0);" class="logo">
+              <img src="img/logo.png" alt="logo">
+            </a>
+            </div>
+            <div class="col-md-5">
+            <select name="" id="" class="header_select">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+            </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- header right side: budget -->
+        <div class="col-md-6 header_right">
+          <div class="row">
+            <div class="col-md-4">
+              <p>Бюджет імпортера</p>
+              <span>10 000 uah</span>
+            </div>
+            <div class="col-md-4">
+              <p>Заплановані витрати</p>
+              <span>9 000 / 5 500 uah</span>
+            </div>
+            <div class="col-md-4">
+              <p>Фактичні витрати</p>
+              <span>7 000 / 5 500 uah</span>
+            </div>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </header>
+
+  <!-- mainwrapper -->
+  <section id="wrapper">
+
+    <!-- 
+      banner 
+      img set as background
+    -->
+    <div class="core_banner"></div>
+
+    <!-- tabs -->
+    <div id="tabs" class="clearfix">
+      <div class="container">
+        <div class="row">
+          <a href="javascript:void(0);" class="tab col-md-3 ">головна</a>
+          <a href="javascript:void(0);" class="tab col-md-3 active">планові витрати</a>
+          <a href="javascript:void(0);" class="tab col-md-3">фактичні витрати</a>
+          <a href="javascript:void(0);" class="tab col-md-3">звіт</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- maincontainer -->
+    <div class="container">
+      <div class="row">
+
+        <!-- paste content here -->
+        <div class="clearfix row">
+          <div class="col-md-12">
+            <p class="total_budget_text">
+              Бюджет імпортера складає       
+              <span>10 000 UAH</span>
+            </p>
+          </div>
+        </div>
+
+        <table class="table_style">
+          <thead>
+            <tr>
+              <th rowspan="2">назва статті</th>
+              <th rowspan="2">канал</th>
+              <th rowspan="2">Заплановані погоджені витрати</th>
+              <th colspan="2">фактичні витрати</th>
+              <th rowspan="2">інвойс</th>
+              <th rowspan="2">статус</th>
+            </tr>
+            <tr>
+              <th class="small">звітні</th>
+              <th class="small">затверджені</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>icon</td>
+              <td>погоджено</td>
+            </tr>
+            <tr class="total">
+              <td>разом</td>
+              <td></td>
+              <td></td>
+              <td>4432424</td>
+              <td>5000</td>
+              <td>  </td>
+              <td>план погоджено</td>
+            </tr>
+          </tbody>
+        </table>     
+
+      </div>
+    </div>
+    
+
+  </section>
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="rights">
+          &copy; Ford 2016. Усі права захищено. Сторінка створена для внутрішнього користування
+        </div>
+        <div class="welldo">
+          Made in <a href="http://welldostudio.com/" target="_blank">WellDo Studio</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
