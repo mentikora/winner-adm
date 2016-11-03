@@ -1,0 +1,39 @@
+.form_style{
+	margin-top: 30px;
+}
+
+	.form_input,
+	.form_select,
+	.form_textarea{
+		width: 100%;
+		margin-bottom: 30px;
+
+		border: 1px solid #d1d1d1;
+		outline: 0;
+		height: 60px;
+		line-height: 60px;
+		padding-left: 25px;
+
+		font-size: 13px;
+		color: #898989;
+		font-family: 'fa_reg', sans-serif;
+	}
+
+	.form_textarea{ height: 200px; }
+
+	.form_label{
+		font-size: 14px;
+		color: #425968;
+		font-family: 'fa_bold', sans-serif;
+		line-height: 60px;
+		text-transform: uppercase;
+	}
+
+.fake_upload_image{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}

@@ -74,7 +74,12 @@ body{
 
 /* titles */
 .page_title{}
-.block_title{}
+.block_title{
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #425968;
+  font-family: 'fa_bold', sans-serif;
+}
 
 @media(max-width: 991px){
   .core_banner{
