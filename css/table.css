@@ -1,0 +1,40 @@
+.table_style{
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 14px;
+
+  margin-top: 25px;
+}
+
+  .table_style img{
+    max-height: 40px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .table_style th,
+  .table_style td{
+    height: 57px;
+    padding: 0px 10px;
+    border: 1px solid #d1d1d1;
+  }
+
+  .table_style th,
+  .table_style .total td{
+    font-family: 'fa_bold', sans-serif;
+    text-transform: uppercase;
+    color: #425968;
+  }
+    .table_style th.small,
+    .table_style .total td:last-child{
+      text-transform: none;
+    }
+
+  .table_style td{
+    font-family: 'fa reg', sans-serif;
+    color: #898989;
+  }
+    .table_style tr:nth-child(even) td{
+      background: #f0f0f0;
+    }

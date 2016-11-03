@@ -1,0 +1,13 @@
+.total_budget_text{
+	font-size: 14px;
+	color: #425968;
+	font-family: 'fa_reg', sans-serif;
+	text-transform: uppercase;
+}
+	.total_budget_text span{
+		color: #14629b;
+		font-family: 'fa_bold', sans-serif;
+
+		display: inline-block;
+		margin-left: 20px;
+	}

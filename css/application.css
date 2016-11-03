@@ -2,8 +2,11 @@
 @import "font.css";
 @import "grid.css";
 @import "theme-default.css";
+@import "table.css";
+@import "form.css";
 
 @import "autorization.css";
 @import "header.css";
 @import "footer.css";
 @import "tabs.css";
+@import "statistic_plan.css";

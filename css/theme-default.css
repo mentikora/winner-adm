@@ -71,6 +71,10 @@ body{
   overflow: hidden;
 }
 
+/* titles */
+.page_title{}
+.block_title{}
+
 @media(max-width: 991px){
   .core_banner{
     display: none;
