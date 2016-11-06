@@ -67,7 +67,6 @@ body{
   -webkit-background-size: cover;
   background-size: cover;
 
-  background-attachment: fixed;
   height: 390px;
   overflow: hidden;
 }
