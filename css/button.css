@@ -29,3 +29,7 @@
   .btn.abort:hover{
     background: #ed2e35;
   }
+.btn.nobg{
+  background: 0;
+  color: #14629b;
+}

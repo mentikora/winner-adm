@@ -1,5 +1,47 @@
 .filter_form{}
-  .filter_form_title{}
-  .check_wrap{}
+  .filter_form_title{
+  	margin: 0 15px 20px;
+  	font-size: 14px;
+  	color: #898989;
+		font-family: 'fa_bold', sans-serif;
+		text-transform: uppercase;
+  }
+  	.filter_form_title.blue{
+  		color: #425968;
+  		margin-top: 30px;
+  		margin-bottom: 50px;
+  	}
+  	.select_label{
+  		margin-left: 15px;
+  		color: #425968;
+	  	font-size: 14px;
+			font-family: 'fa_bold', sans-serif;
+			text-transform: uppercase;
+  	}
+  .check_wrap{
+  	margin-bottom: 20px;
+  }
     .check_wrap input{}
-    .check_wrap label{}
+    .check_wrap label{
+    	font-size: 14px;
+    	color: #898989;
+    	margin-left: 20px;
+    	font-family: 'fa_light', sans-serif;
+    }
+.filter_form .btn{
+	width: 260px;
+	margin-top: 15px;
+}
+.filter_select{
+	margin-top: 15px;
+	width: 100%;
+	border: 1px solid #d1d1d1;
+	outline: 0;
+	height: 42px;
+	line-height: 42px;
+	padding-left: 10px;
+
+	font-size: 14px;
+	color: #425968;
+	font-family: 'fa_bold', sans-serif;
+}
