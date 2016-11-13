@@ -6,7 +6,22 @@
 		border-radius: 50%;
 
 		background: #003e6b;
+		text-align: center;
 	}
+		.report_stat .graph .name{
+			margin-top: 90px;
+			margin-bottom: 20px;
+			font-size: 18px;
+			color: #425968;
+			font-family: 'fa_bold', sans-serif;
+			text-transform: uppercase;
+		}
+		.report_stat .graph .count{
+			font-size: 18px;
+			color: #898989;
+			font-family: 'fa_light', sans-serif;
+			text-transform: uppercase;
+		}
 	.graph_type{
 
 	}
