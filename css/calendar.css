@@ -1,0 +1,58 @@
+.month-picker,
+.month-picker .ui-corner-all{
+  border-radius: 0 !important;
+}
+.month-picker{
+  background: #fafafa;
+}
+
+.month-picker .month-picker-header{
+  margin: 0;
+}
+.month-picker .ui-widget-header{
+  border: 0;
+  background: #fff;
+}
+
+.month-picker .month-picker-title a{
+  background: #fff;
+  font-size: 13px;
+  font-family: 'fa_bold', sans-serif;
+  color: #425968;
+}
+.month-picker .month-picker-year-table{
+  border-spacing: 0;
+}
+
+.month-picker .month-picker-month-table a{
+  background: #fff;
+  font-family: 'fa_reg', sans-serif;
+  color: #425968;
+}
+
+/* buttons prev-next */
+.month-picker .month-picker-previous a,
+.month-picker .month-picker-next a{
+  width: 28px;
+  height: 28px;
+  opacity: 1;
+  background: #d1d1d1;
+  text-align: center;
+}
+
+/* highlight */
+.month-picker .ui-state-active, 
+.month-picker .ui-widget-content .ui-state-active, 
+.month-picker .ui-widget-header .ui-state-active, 
+.month-picker a.ui-button:active, 
+.month-picker .ui-button:active, 
+.month-picker .ui-button.ui-state-active:hover{
+  background: #14629b;
+  color: #fff;
+}
+
+.month-picker .ui-state-highlight, 
+.month-picker .ui-widget-content .ui-state-highlight, 
+.month-picker .ui-widget-header .ui-state-highlight{
+  background: #d1d1d1;
+}
