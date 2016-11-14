@@ -10,8 +10,8 @@
   margin: 0;
 }
 .month-picker .ui-widget-header{
-  /*border: 0;*/
   background: #fff;
+  border: 0;
   border-bottom: 1px solid #d1d1d1 !important;
 }
 
@@ -44,9 +44,24 @@
   width: 28px;
   height: 28px;
   opacity: 1;
-  background: #d1d1d1;
+  background-color: #d1d1d1;
   text-align: center;
 }
+  .month-picker .month-picker-previous a > *,
+  .month-picker .month-picker-next a > *{
+    display: none;
+  }
+  .month-picker .month-picker-previous a{
+    background-image: url('../img/prev.png') no-repeat 50%;
+  }
+  .month-picker .month-picker-next a{
+    background-image: url('../img/next.png') no-repeat 50%;
+  }
+
+  .month-picker .month-picker-previous a:hover,
+  .month-picker .month-picker-next a:hover{
+    background-color: #14629b;
+  }
 
 /* highlight */
 .month-picker .ui-state-active, 
