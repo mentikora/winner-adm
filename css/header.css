@@ -50,7 +50,11 @@
   font-size: 14px;
   color: #425968;
   font-family: 'fa_bold', sans-serif;
+
+  background: #fff url('../img/calendar.svg') no-repeat 13px 12px;
+  background-size: 16px;
 }
+
 
 @media(max-width: 991px){
   #header .row{
